@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart-IT Service. Ремонт ноутбуков Донецк</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/repair.png" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/js.js" defer></script>
+    <meta content="Ремонт ноутбуков в Донецке. Smart-IT Service" name="keywords">
+    <meta content="Ремонт ноутбуков в Донецке. Ремонт ноутбуков, замена мостов, видеокарт, разбитых матриц, клавиатур, аккумуляторов и других компонентов." name="description">
+</head>
+<body>
+        <a href="#" id="upButton"></a>
+        
+       
+        <div id="main_header">
+            <div class="container">
+               <div class="row">
+                   <div class="col-md-8 col-xs-7 logotype" unselectable="on" onselectstart="return false;">
+                       <img  src="img/LogoLittle2.png" alt="Ремонт ноутбуков в Донецке">
+                   </div>
+                   
+                   <div class="vk_link col-md-1 col-xs-1">
+                       <a class="pull-right" target="_blank" href="https://vk.com/smart_it_service">
+                            <i class="fa fa-vk fa-3x" aria-hidden="true"></i>
+                            </a> 
+                    </div>
+                   <div class="col-md-3 col-xs-4 phones">
+
+                       <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                       <a href="tel:+380661444966">+38 (066) 144-49-66</a><br>
+                       <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                       <a href="tel:+380507600171">+38 (050) 760-01-71</a><br>
+                       <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                       <a href="tel:+380713242404">+38 (071) 324-24-04</a><br>
+                   
+                   </div>
+               </div>
+            </div>
+        </div>
+        
+        <section id="navigation" unselectable="on" onselectstart="return false;">
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-12 col-xs-12">
+                    <ul>
+                        <li id="worksBtn"><a>Услуги</a></li>
+                        <li id="priceBtn"><a>Прайс-лист</a></li>
+                        <li id="contactsBtn"><a>Контакты</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="main" unselectable="on" onselectstart="return false;">
+            <div class="container">
+                <div class="row">
+                  
+                   <div class="col-sm-12">
+                       <h1><span>Ремонт ноутбуков <br>в Донецке</span></h1>
+                       <h2><span>Выполнение работ <br>любой сложности</span></h2>
+                       <br>
+                       <button type="button" class="btnModal" data-toggle="modal" data-target="#myModal" id="btnModal"><h3>Напишите нам</h3></button>
+                   </div>
+                </div>
+                <div class="row">
+                    
+                </div>
+            </div>
+        </section>
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="text-center modal-title">Напишите нам и мы обязательно ответим</h2>
+      </div> 
+      <div class="modal-body col-md-12">
+          <div class="modalMesage">
+                  <h1>Письмо отправлено!<br> Постараемся ответить на него в ближайшее время.</h1>
+          </div>
+          
+        <form id="myform" method="post">
+        <!-- Сделать форму обратной связи -->
+            
+            <div class="row rowInForm">
+                <div class="col-md-12">
+                    <label for="email_addr"><h3>Ваш Email адрес:</h3></label>
+                    <input type="email" placeholder="Ваш Email" class="form-control" id="email_addr" name="email_addr">
+                </div>
+            </div>
+          
+            <div class="row rowInForm">
+                <div class="col-md-12">
+                    <label for="clientName"><h3>Ваше ФИО:</h3></label>
+                    <input type="text" placeholder="ФИО" class="form-control" id="clientName" name="clientName">
+                </div>
+            </div>
+            <div class="row rowInForm">
+                <div class="col-md-12">
+                    <label for="phone"><h3>Ваш контактный телефон:</h3></label>
+                    <input type="text" placeholder="(XXX)-XXX-XXXX" class="form-control" id="phone" name="phone">
+                </div>   
+            </div>
+            
+            <div class="row rowInForm">
+                <div class="col-md-12">
+                    <label for="comment"><h3>Сопроводительное письмо</h3></label>
+                    <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+                </div>
+            </div>
+            
+          <button class="btnInModal" id="btnSendMail">Отправить письмо</button>
+          <button type="button" class="btnInModal pull-right" data-dismiss="modal" id="btnInModalClose">Закрыть</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+
+  </div>
+</div>
+        
+        <section id="work_list">
+            <div class="container">
+                <div class="row">
+                   <h1 id="BigH1" class="text-center">Наши услуги</h1>
+                   <h2>Наш сервисный центр оказывает услуги по ремонту ноутбуков и нетбуков : Sony VAIO, Toshiba, Dell, HP, Asus, Lenovo, Acer, Apple MacBook, MSI, Packard Bell, eMachines, Fujitsu-Siemens, LG, Samsung и других марок. 
+                       <br>Мы выполняем ремонт любой сложности, начиная от обычной чистки ноутбука от пыли и заканчивая заменой чипов и перепайкой мостов. 
+                       <br>Диагностика программных и аппаратных неисправностей БЕСПЛАТНО!
+                   </h2>
+                    <div class="col-sm-4 work_group">
+                        <h2><b>Ремонт ноутбуков</b></h2>
+                        <div class="custom-img">
+                            <img src="img/laptop2.png" alt="Ремонт ноутбуков в Донецке"
+                            class="img-inner">
+                        </div>
+                         <p>
+                            Ремонт ноутбуков, замена мостов, видеокарт, разбитых матриц, клавиатур, аккумуляторов и других компонентов.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 work_group">
+                       <h2><b>Ремонт мониторов</b></h2>
+                       <div class="custom-img">
+                        <img src="img/monitor2.png" alt="Ремонт мониторов в Донецке" class="img-inner">
+                        </div>
+                        <p>
+                            Ремонт ЖК мониторов любых производителей в кратчайшие сроки с гарантией. Пропало изображение на экране? Приносите, починим!
+                        </p>
+                    </div>
+                    <div class="col-sm-4 work_group">
+                        <h2><b>Ремонт техники</b></h2>
+                        <div class="custom-img">
+                        <img src="img/printer2.png" alt="Ремонт компьютеров и принтеров в Донецке" class="img-inner">
+                        </div>
+                        <p>Ремонт проекторов, ПК, моноблоков, планшетов, КПК, навигаторов, копировальной техники, и другой сложной электроники.</p>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        
+        <section id="price_list">
+            <div class="container">
+                   <h1 id="BigH1" class="text-center">Прайс-лист</h1>
+                <div class="row">
+                    <table id="table_prices" class="table table-curved">
+                    <thead>
+                          <tr class="tbl_header">
+                            <th>Наименование работы</th>
+                            <th>Стоимость (руб.)</th>
+                          </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <td><b>Диагностика.</b> Включает полную диагностику компьютера и определение причины сбоев в его работе.</td>
+                            <td><b>Бесплатно</b></td>
+                      </tr>
+                      <tr>
+                          <td><b>Профилактика.</b> Чистка от пыли, замена термопасты, термопрокладок, смазка кулера.</td>
+                            <td><b>400</b></td>
+                      </tr>
+                          <td colspan="2" class="tbl_header">
+                              <b>Ремонт ноутбуков</b>
+                          </td>
+                      <tr>
+                          <td><b>Замена матрицы.</b> Без учета стоимости матрицы.</td>
+                            <td><b>300 - 500</b></td>
+                      </tr>
+                      
+                      <tr>
+                          <td><b>Замена разъема</b> питания, 3.5 stereojack, USB(включая стоимость разъёма.)</td>
+                            <td><b>500 - 1000</b></td>
+                      </tr>
+                      
+                      <tr>
+                          <td><b>Восстановление работоспособности ОС.</b> Установка/переустановка ПО, чистка от вирусов, установка драйверов.</td>
+                            <td><b>100 - 900</b></td>
+                      </tr>
+                      
+                      <tr>
+                          <td><b>Восстановление цепей питания.</b> В зависимости от сложности работ и стоимости установленных деталей.</td>
+                            <td><b>400 - 2000</b></td>
+                      </tr>
+                      
+                      <tr>
+                          <td><b>Замена/перепрошивка микросхем BIOS.</b> В зависимости от сложности работ и стоимости установленных деталей.</td>
+                            <td><b>500 - 3000</b></td>
+                      </tr>
+                      
+                      <tr>
+                          <td><b>Корпусной ремонт.</b> В зависимости от сложности ремонта, стоимости и количества установленных деталей.</td>
+                            <td><b>от 500</b></td>
+                      </tr>
+                      
+                      <tr>
+                          <td><b>Замена съёмных деталей.</b> Клавиатуры, жесткого диска, оперативной памяти, привода<br> (без стоимости деталей, в зависимости от сложности работ).</td>
+                            <td><b>100 - 700</b></td>
+                      </tr>
+                      
+                      <tr>
+                          <td><b>Замена чипов.</b> Видеочипа, северного моста, южного моста, мобильных ЦП <br>(без стоимости чипа, в зависимости от сложности работ).</td>
+                            <td><b>800 - 2000</b></td>
+                      </tr>
+                      
+                      
+      
+                    </tbody>
+                    </table>
+                </div>
+                    
+            </div>
+        </section>
+        
+        
+        <section id="findMap">
+            <div class="container">
+               <div class="row">
+                 <h1 id="BigH1" class="text-center">Контакты</h1>
+                  <div class="col-lg-4 col-md-4 col-xs-12 work_kontacts">
+                      <h3 class="work_hours"><b>Режим работы:</b></h3>
+                      <div class="row">
+                          <div class="col-md-3 col-xs-4">
+                          <p>ПН-СБ</p>
+                          <p>ВС</p>
+                          </div>
+                          <div class="col-md-9 col-xs-8">
+                          <p>9:00 - 18:00</p>
+                          <p>выходной</p>
+                          </div>
+                      </div>
+                      
+                      <h3><b>Адрес сервисного центра:</b></h3>
+                      <p>г.Донецк, улица Артема 15 (1 этаж)</p>
+                      <br>
+                      <h3><b>Контактные телефоны:</b></h3>
+                      <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                       <a href="tel:+380661444966">+38 (066) 144-49-66</a><br>
+                       <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                       <a href="tel:+380507600171">+38 (050) 760-01-71</a><br>
+                       <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                       <a href="tel:+380713242404">+38 (071) 324-24-04</a><br>
+                       <br>
+                       <a target="_blank" href="https://vk.com/smart_it_service">
+                       <i class="fa fa-vk fa-1x" aria-hidden="true"></i>
+                           <span>Наша группа ВКонтакте</span>
+                            </a> 
+                  </div>
+                   <div class="col-lg-8 com-md-8 col-xs-12 work_map" unselectable="on" onselectstart="return false;">
+<!--                       <h3 class="text-center"><b>Как нас найти</b></h3>-->
+                        <div class="yandexMap">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af9137d6db31e26341075584f9850886ded54a4f345ef49523bc3cde3c39d73b3&amp;width=100%25&amp;height=460&amp;lang=ru_UA&amp;scroll=true"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-6">
+                   <h3 class="pull-left">© 2017 Smart-IT Service. Все права защищены.</h3>
+                    </div>
+                   <div class="col-md-6">
+                       <!--<h3 class="pull-right"><a target="_blank" href="https://static-void.ru">Разработка: Static-Void</a></h3>-->
+                   </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://smtpjs.com/smtp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+</body>
+</html>
